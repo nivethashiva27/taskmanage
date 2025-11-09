@@ -1,0 +1,13 @@
+body{font-family:Arial,Helvetica,sans-serif;background:#f4f7fb;margin:0;padding:20px}
+.container{max-width:900px;margin:0 auto;background:#fff;padding:20px;border-radius:6px;box-shadow:0 4px 18px rgba(0,0,0,.06)}
+h1{margin-top:0}
+.form-section{margin-bottom:20px}
+#task-form input,#task-form textarea{display:block;width:100%;margin:8px 0;padding:8px;border:1px solid #ddd;border-radius:4px}
+#task-form button{padding:10px 14px;border:none;background:#28a745;color:#fff;border-radius:4px;cursor:pointer}
+.filters{margin-bottom:10px}
+#tasks-table{width:100%;border-collapse:collapse}
+#tasks-table th,#tasks-table td{padding:10px;border-bottom:1px solid #eee;text-align:left}
+#tasks-table th{background:#fafafa}
+button{padding:6px 10px;border-radius:4px;border:none;background:#e74c3c;color:#fff;cursor:pointer;margin-right:6px}
+button[onclick*="completeTask"]{background:#2b7cff}
+.error{color:#b00020;margin-top:8px}
